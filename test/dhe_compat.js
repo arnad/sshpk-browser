@@ -8,7 +8,7 @@ var fs = require('fs');
 var path = require('path');
 var crypto = require('crypto');
 var sinon = require('sinon');
-var Buffer = require('safer-buffer').Buffer;
+var Buffer = require('safe-buffer').Buffer;
 
 /* No need to do these on an older node */
 if (crypto.createECDH === undefined)

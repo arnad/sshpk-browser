@@ -7,7 +7,7 @@ var fs = require('fs');
 var path = require('path');
 var crypto = require('crypto');
 var sinon = require('sinon');
-var Buffer = require('safer-buffer').Buffer;
+var Buffer = require('safe-buffer').Buffer;
 
 var ED_KEY, ED2_KEY, EC_KEY, EC2_KEY, ECOUT_KEY, DS_KEY, DS2_KEY, DSOUT_KEY;
 var C_KEY, C2_KEY;

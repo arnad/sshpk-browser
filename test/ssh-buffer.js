@@ -2,7 +2,7 @@
 
 var test = require('tape').test;
 var SSHBuffer = require('../lib/ssh-buffer');
-var Buffer = require('safer-buffer').Buffer;
+var Buffer = require('safe-buffer').Buffer;
 
 test('expands on write', function(t) {
 	var buf = new SSHBuffer({buffer: Buffer.alloc(8)});

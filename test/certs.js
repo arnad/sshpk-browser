@@ -5,8 +5,6 @@ var test = require('tape').test;
 var sshpk = require('../lib/index');
 var fs = require('fs');
 var path = require('path');
-var crypto = require('crypto');
-var sinon = require('sinon');
 var asn1 = require('asn1');
 var SSHBuffer = require('../lib/ssh-buffer');
 

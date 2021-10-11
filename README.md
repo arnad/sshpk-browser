@@ -1,5 +1,7 @@
-sshpk
+sshpk-browser
 =========
+
+A browser-compatible fork of (`sshpk`)[https://github.com/joyent/node-sshpk]
 
 Parse, convert, fingerprint and use SSH keys (both public and private) in pure
 node -- no `ssh-keygen` or other external dependencies.
@@ -19,14 +21,14 @@ Install
 -------
 
 ```
-npm install sshpk
+npm install sshpk-browser
 ```
 
 Examples
 --------
 
 ```js
-var sshpk = require('sshpk');
+var sshpk = require('sshpk-browser');
 
 var fs = require('fs');
 

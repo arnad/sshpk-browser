@@ -1,7 +1,7 @@
 // Copyright 2011 Joyent, Inc.  All rights reserved.
 
 var test = require('tape').test;
-var Buffer = require('safer-buffer').Buffer;
+var Buffer = require('safe-buffer').Buffer;
 
 var utils = require('../lib/utils');
 

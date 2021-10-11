@@ -5,7 +5,7 @@ var path = require('path');
 var fs = require('fs');
 
 var sshpk = require('../lib/index');
-var Buffer = require('safer-buffer').Buffer;
+var Buffer = require('safe-buffer').Buffer;
 
 ///--- Globals
 var SSH_1024 = 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAvad19ePSDckmgmo6Unqmd8' +
