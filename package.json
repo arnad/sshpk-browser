@@ -1,6 +1,6 @@
 {
   "name": "sshpk-browser",
-  "version": "1.16.3",
+  "version": "1.16.4",
   "description": "A browser-compatible library for finding and using SSH public keys, a fork of `sshpk` (Joyent, Inc)",
   "main": "lib/index.js",
   "scripts": {
