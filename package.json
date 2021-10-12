@@ -13,6 +13,18 @@
   "author": "arnadv",
   "contributors": [
     {
+      "name": "Dave Eddy",
+      "email": "dave@daveeddy.com"
+    },
+    {
+      "name": "Mark Cavage",
+      "email": "mcavage@gmail.com"
+    },
+    {
+      "name": "Alex Wilson",
+      "email": "alex@cooperi.net"
+    },
+    {
       "name": "Arnad Voljevica",
       "email": "arnad.voljevica@gmail.com"
     }
@@ -30,7 +42,7 @@
   "homepage": "https://github.com/arnad/sshpk-browser",
   "dependencies": {
     "asn1": "~0.2.3",
-    "assert-plus": "git+https://github.com/arnad/node-assert-plus.git#v1.1.0",
+    "assert-plus-plus": "^1.4.0",
     "bcrypt-pbkdf": "^1.0.0",
     "dashdash": "^1.12.0",
     "ecc-jsbn": "~0.1.1",
